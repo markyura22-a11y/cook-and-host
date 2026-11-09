@@ -1,0 +1,15 @@
+{
+  "name": "cook-and-host",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "집밥·홈파티·테이블을 부담 없이 차리는 요리·살림",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7"
+  }
+}
